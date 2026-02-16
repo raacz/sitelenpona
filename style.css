@@ -23,9 +23,11 @@ a{color: var(--lupa)}
 
 p:not(.sp){width: 25rem}
 p.sp{font-family: "nasin-nanpa", sans-serif;
-    width: 10rem
+    width: 10rem; min-width: 10rem
 }
 
-@media (width < 750px) {
-    h1, div{flex-direction: column}
+@media (width < 550px) {
+    h1, div{flex-direction: column;
+        padding: 0 3vw
+    }
 }

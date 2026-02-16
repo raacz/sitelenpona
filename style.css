@@ -13,4 +13,7 @@ h1{font-weight:800; font-variation-settings:"wdth" 75; color: var(--laso)}
 
 a{color: var(--lupa)}
 
-*:lang(tok){font-family: "nasin-nanpa", sans-serif}
+p:not(.sp){max-width: 25rem}
+p.sp{font-family: "nasin-nanpa", sans-serif;
+    max-width: 10rem
+}

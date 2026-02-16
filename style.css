@@ -28,6 +28,5 @@ p.sp{font-family: "nasin-nanpa", sans-serif;
 
 @media (width < 580px) {
     h1, div.row{flex-direction: column;
-        padding: 0 min(3vw, 4rem)
-    }
+        padding: 0 min(3vw, 4rem)}
 }

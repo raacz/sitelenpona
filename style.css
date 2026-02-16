@@ -26,8 +26,14 @@ p.sp{font-family: "nasin-nanpa", sans-serif;
     width: 10rem; min-width: 10rem
 }
 
+<<<<<<< HEAD
 @media (width < 580px) {
     h1, div.row{flex-direction: column;
         padding: 0 min(3vw, 4rem)
+=======
+@media (width < 550px) {
+    h1, div{flex-direction: column;
+        padding: 0 3vw
+>>>>>>> e392061e76b68c47a77bc069e58936e654d43771
     }
 }

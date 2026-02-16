@@ -3,3 +3,4 @@ body{
     --jelo: #fcffb1;
     font-family: 'Nunito Sans', sans-serif
 }
+h1{font-weight:800; font-variation-settings:"wdth" 75}

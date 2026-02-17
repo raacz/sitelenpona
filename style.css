@@ -35,7 +35,7 @@ a:hover{color: var(--laso)}
     .split{padding: 0 3vw}}
 
 @media (width < 580px) {
-    .split {grid-template-columns: 2rem 1fr; padding-inline: 1rem; gap: 1rem;
+    .split {grid-template-columns: 2rem 1fr; padding-inline: 1rem; gap: 0;
     }
     .split > :not(.numbering){grid-column: 2}
     .split > [lang="en"]{width: unset; max-width: 25rem}

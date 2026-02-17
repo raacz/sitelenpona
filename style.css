@@ -19,6 +19,8 @@ h1{margin-block: 1rem; border-bottom: solid yellow .5rem;
     grid-auto-flow: dense; gap: 1rem 0; padding: 0 4rem
 }
 
+.split > *{margin: 1rem 0}
+
 .split > [lang="en"]{grid-column: 2; max-width: 25rem}
 
 a{color: var(--lupa)}
@@ -31,9 +33,7 @@ a:hover{color: var(--laso)}
 
 
 @media (width < 750px) {
-    h1, div.row{padding: 0 min(3vw, 4rem)
-    }
-}
+    .split{padding: 0 min(3vw, 4rem)}}
 
 @media (width < 580px) {
     h1, div.row{flex-direction: column;}

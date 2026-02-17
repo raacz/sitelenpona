@@ -22,7 +22,7 @@ section{display: grid; grid-template-columns:minmax(0, 50ch) 1rem minmax(0, 50ch
 
 a{color: var(--lupa)}
 
-.split > [lang="en"]{font-family: "nasin-nanpa", sans-serif;
+.split > .sp{font-family: "nasin-nanpa", sans-serif;
     width: 10rem; min-width: 10rem
 }
 

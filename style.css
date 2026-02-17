@@ -25,7 +25,7 @@ h1.split > p {margin: 1rem 0}
 
 .split > [lang="en"]{grid-column: 2; max-width: 25rem}
 
-.split > .sp{grid-column: 4;
+.sp{grid-column: 4;
     font-family: "nasin-nanpa", sans-serif;
     width: 10rem; min-width: 10rem
 }

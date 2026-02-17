@@ -6,17 +6,18 @@
 body{margin:0;
     --laso: #000099;
     --jelo: #fcffb1;
-    --lupa: #00c4fd;
+    --lupa: #0063fd;
     font-family: 'Nunito Sans', sans-serif
 }
 
 main{margin-bottom: 4rem}
 
-h1{display: grid; grid-template-columns:minmax(0, 50ch) 1rem minmax(0, 10ch) 2rem;
-    grid-auto-flow: dense; gap: 1rem 0; margin-block: 1rem; border-bottom: solid yellow .5rem;
+h1{margin-block: 1rem; border-bottom: solid yellow .5rem;
     font-weight:800; font-variation-settings:"wdth" 75; color: var(--laso)}
 
-section{display: grid; grid-template-columns:minmax(0, 50ch) 1rem minmax(0, 50ch) 2rem;}
+.split{display: grid; grid-template-columns:minmax(0, 50ch) 1rem minmax(0, 50ch) 2rem;
+    grid-auto-flow: dense; gap: 1rem 0;
+}
 
 .split > [lang="en"]{grid-column: 2;}
 

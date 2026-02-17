@@ -15,7 +15,7 @@ main{margin-bottom: 4rem}
 h1{margin-block: 1rem; border-bottom: solid yellow .5rem;
     font-weight:800; font-variation-settings:"wdth" 75; color: var(--laso)}
 
-.split{display: grid; grid-template-columns:2rem minmax(0, 25rem) 1rem minmax(0, 10rem) 2rem;
+.split{display: grid; grid-template-columns:2rem minmax(0, 25rem) minmax(1rem, 7vw) minmax(0, 10rem) 2rem;
     grid-auto-flow: dense; gap: 1rem 0; padding: 0 4rem
 }
 section.split{margin-bottom: 2rem}
@@ -41,7 +41,7 @@ a:hover{color: var(--laso)}
 @media (width < 580px) {
     .split {grid-template-columns: 2rem 1fr; padding-inline: 1rem; gap: 1rem 0;
     }
-    .numbering{display:inline; grid-column: 1}
+    .numbering{display:inline; font-size: 12px; font-weight: 700; grid-column: 1}
     .split > :not(.numbering){grid-column: 2}
     .split > [lang="en"]{width: unset; max-width: 25rem}
     h1.split{gap: 0}

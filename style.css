@@ -23,22 +23,22 @@ h1{margin-block: 1rem; border-bottom: solid yellow .5rem;
 
 .split > [lang="en"]{grid-column: 2; max-width: 25rem}
 
-a{color: var(--lupa)}
-a:hover{color: var(--laso)}
-
 .split > .sp{grid-column: 4;
     font-family: "nasin-nanpa", sans-serif;
     width: 10rem; min-width: 10rem
 }
 
+a{color: var(--lupa)}
+a:hover{color: var(--laso)}
 
 @media (width < 750px) {
-    .split{padding: 0 min(3vw, 4rem)}}
+    .split{padding: 0 3vw}}
 
 @media (width < 580px) {
-    h1, div.row{flex-direction: column;}
-    p:not(.sp){width: unset; max-width: 25rem}
-    h1 p:lang(en){margin-bottom:0}
-    h1 p.sp, div.row p.sp{margin-top:0}
-    div.row p:lang(en){margin-bottom:.5rem}
+    .split {grid-template-columns: 2rem 1fr; padding-inline: 1rem; gap: 1rem;
+    }
+    .split > [lang="en"]{width: unset; max-width: 25rem}
+    h1.split > [lang="en"]{margin-bottom:0}
+    .split > .sp{margin-top:0}
+    section.split > [lang="en"]{margin-bottom:.5rem}
 }

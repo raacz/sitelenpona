@@ -7,14 +7,14 @@ body{margin:0;
     --loje-7: #e42001;
     --loje-6: #fe472e;
     --lupa: #0063fd;
-    background-color: white; color: black
+    background-color: white; color: black;
     font-family: 'Nunito Sans', sans-serif
 }
 
 main{margin-bottom: 4rem}
 
 h1{margin-block: 1rem; border-bottom: solid var(--loje-6) 2px;
-    font-weight:800; font-variation-settings:"wdth" 150; color: var(--loje-6);
+    font-weight:800; font-variation-settings:"wdth" 150;
     box-shadow: var(--loje-6) 0 4px 4px -4px
 }
 

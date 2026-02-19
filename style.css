@@ -11,6 +11,8 @@ body{margin:0;
     font-family: 'Nunito Sans', sans-serif
 }
 
+::selection{background-color: var(--loje-6); color: white}
+
 main{margin-bottom: 4rem}
 
 h1{margin-block: 1rem; border-bottom: solid var(--loje-6) 2px;

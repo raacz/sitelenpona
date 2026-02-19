@@ -4,19 +4,22 @@
 }
 
 body{margin:0;
-    --laso: #000099;
-    --jelo: #fcffb1;
+    --loje-7: #e42001;
+    --loje-6: #fe472e;
     --lupa: #0063fd;
+    background-color: white; color: black
     font-family: 'Nunito Sans', sans-serif
 }
 
 main{margin-bottom: 4rem}
 
-h1{margin-block: 1rem; border-bottom: solid yellow .5rem;
-    font-weight:800; font-variation-settings:"wdth" 75; color: var(--laso)}
+h1{margin-block: 1rem; border-bottom: solid var(--loje-6) 2px;
+    font-weight:800; font-variation-settings:"wdth" 150; color: var(--loje-6);
+    box-shadow: var(--loje-6) 0 4px 4px -4px
+}
 
 .split{display: grid; grid-template-columns:2rem minmax(0, 25rem) minmax(1rem, 7vw) minmax(0, 10rem) 2rem;
-    grid-auto-flow: dense; gap: 1rem 0; padding: 0 4rem
+    grid-auto-flow: dense; gap: 1rem 0; padding: 0 1rem; width: fit-content; margin-right: auto; margin-left: auto;
 }
 section.split{margin-bottom: 2rem}
 
@@ -33,7 +36,6 @@ h1.split > p {margin: 1rem 0}
 .numbering{display:none}
 
 a{color: var(--lupa)}
-a:hover{color: var(--laso)}
 
 @media (width < 750px) {
     .split{padding: 0 3vw}}

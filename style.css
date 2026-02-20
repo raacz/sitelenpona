@@ -38,7 +38,7 @@ h1.split > p {margin: 1rem 0}
 
 a{color: var(--lupa)}
 
-@media (width < 750px) {
+@media (width < 800px) {
     .split{padding: 0 6vw}}
 
 @media (width < 580px) {

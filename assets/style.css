@@ -57,7 +57,7 @@ h2 {
     font-variation-settings: "wdth" 75;
     font-size: 2em;
 
-    /*width: fit-content; unconvinced that this looks better*/
+    width: fit-content; 
 }
 
 .split {
@@ -110,6 +110,9 @@ main img {
 @media (width < 580px) {
     .split p::before{
         opacity: 1;
+    }
+    h2{
+        width: inherit;
     }
 
 
